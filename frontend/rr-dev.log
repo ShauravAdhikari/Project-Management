@@ -1,0 +1,265 @@
+
+> dev
+> react-router dev
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m2:45:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@hookform/resolvers/zod, lucide-react, react-hook-form, sonner, zod, @tanstack/react-query, @radix-ui/react-slot, class-variance-authority, @radix-ui/react-label, axios, clsx, tailwind-merge[32m[39m
+[2m2:45:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[33mThe file does not exist at "C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/.vite/deps/chunk-ASUOAYOF.js?v=3991d3d3" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.[39m
+[33mThe file does not exist at "C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/.vite/deps/chunk-AEW4WGTC.js?v=3991d3d3" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.[39m
+[2m2:45:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/edge-dom.txt[22m
+[2m2:45:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/edge-dom.txt[22m
+[2m2:45:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2medge-dom.txt[22m
+[2m2:45:50 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2medge-dom.txt[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/layout/sidebar-component.tsx[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/layout/sidebar-component.tsx[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/components/layout/sidebar-component.tsx[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/layout/sidebar-component.tsx[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\root\home.tsx, /app/app.css[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\root\home.tsx, /app/app.css[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\root\home.tsx, /app/app.css[22m
+[2m3:27:40 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/root/home.tsx[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/layout/sidebar-component.tsx[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/layout/sidebar-component.tsx[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/components/layout/sidebar-component.tsx[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/layout/sidebar-component.tsx[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\root\home.tsx, /app/app.css[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\root\home.tsx, /app/app.css[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\root\home.tsx, /app/app.css[22m
+[2m3:31:41 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/root/home.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/types/index.ts[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes/dashboard/dashboard-layout.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes/dashboard/dashboard-layout.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/dashboard-layout.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/dashboard-layout.tsx[22m
+[2m3:42:59 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+[2m3:42:59 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+[2m3:43:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/ai/assistant-chat.tsx[22m
+[2m3:43:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/ai/assistant-chat.tsx[22m
+[2m3:43:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/components/ai/assistant-chat.tsx[22m
+[2m3:43:20 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/ai/assistant-chat.tsx[22m
+[2m4:17:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mdate-fns, recharts, @radix-ui/react-scroll-area, @radix-ui/react-progress, @radix-ui/react-avatar, @radix-ui/react-dialog, @radix-ui/react-dropdown-menu[32m[39m
+[2m4:17:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/hooks/use-workspace.ts[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\dashboard\recnt-projects.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\dashboard\recnt-projects.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\dashboard\recnt-projects.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/dashboard/recnt-projects.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/upcoming-tasks.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/dashboard-layout.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /app/app.css[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/index.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes/dashboard/members.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes/dashboard/members.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/members.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/members.tsx[22m
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:21:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx[22m
+[2m4:34:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@radix-ui/react-tabs[32m[39m
+[2m4:34:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /app/app.css[22m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /app/app.css[22m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /app/app.css[22m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/workspaces/index.tsx[22m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes/dashboard/members.tsx[22m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes/dashboard/members.tsx[22m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/members.tsx[22m
+[2m4:34:34 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/members.tsx[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/types/index.ts[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/react-query-provider.tsx, /app/app.css[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/react-query-provider.tsx, /app/app.css[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/react-query-provider.tsx, /app/app.css[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/provider/react-query-provider.tsx[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/app/provider/react-query-provider.tsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/auth-context.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\root.tsx[22m
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/app/provider/react-query-provider.tsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:43:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/auth-context.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\root.tsx[22m
+[2m4:43:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx[22m
+[2m4:43:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx[22m
+[2m4:43:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx[22m
+[2m4:43:48 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/hooks/use-workspace.ts[22m
+[2m4:43:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:43:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx[22m
+[2m4:43:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/hooks/use-project.ts[22m
+[2m4:43:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/hooks/use-project.ts[22m
+[2m4:43:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/hooks/use-project.ts[22m
+[2m4:43:54 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/hooks/use-project.ts[22m
+[2m4:44:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /app/app.css[22m
+[2m4:44:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /app/app.css[22m
+[2m4:44:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /app/app.css[22m
+[2m4:44:13 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/dashboard-layout.tsx[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\dashboard\recnt-projects.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\dashboard\recnt-projects.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\dashboard\recnt-projects.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/dashboard/recnt-projects.tsx[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/upcoming-tasks.tsx[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/index.tsx[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /app/app.css[22m
+[2m4:44:35 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/members.tsx[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/upcoming-tasks.tsx[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /app/app.css[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /app/app.css[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /app/app.css[22m
+[2m4:46:36 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/members.tsx[22m
+[2m4:47:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:47:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:47:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\upcoming-tasks.tsx, /app/app.css[22m
+[2m4:47:20 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/upcoming-tasks.tsx[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes.ts[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/routes.ts[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/routes.ts[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes.ts[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\layout\sidebar-component.tsx, /app/app.css[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\layout\sidebar-component.tsx, /app/app.css[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\layout\sidebar-component.tsx, /app/app.css[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/layout/sidebar-component.tsx[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/hooks/use-task.ts[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx, /app/app.css[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx, /app/app.css[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx, /app/app.css[22m
+[2m4:51:31 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/dashboard/my-tasks.tsx[22m
+[2m4:51:32 PM[22m [36m[1m[react-router][22m[39m [32mConfig changed.[39m
+[2m4:51:32 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+[2m4:51:32 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+Error: No route matches URL "/settings"
+    at getInternalRouterError (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:5266:5)
+    at Object.query (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:3298:19)
+    at handleDocumentRequest (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UALY5CBT.mjs:1449:38)
+    at requestHandler (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UALY5CBT.mjs:1308:24)
+    at nodeHandler (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\@react-router\dev\dist\vite.js:3773:30)
+    at C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\@react-router\dev\dist\vite.js:3780:17
+Error: No `routeModule` available to create server routes
+    at invariant2 (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:7840:11)
+    at file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8657:5
+    at Array.map (<anonymous>)
+    at createServerRoutes (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8655:45)
+    at file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8681:20
+    ... collapsed 3 duplicate lines matching above lines ...
+    at Array.map (<anonymous>)
+    at createServerRoutes (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8655:45)
+    at ServerRouter (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UALY5CBT.mjs:67:16)
+    at Object.react_stack_bottom_frame (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:10288:18)
+    at renderWithHooks (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:5298:19)
+    at renderElement (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:5733:23)
+    at retryNode (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:6664:31)
+    at performWork (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:7692:17)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:8546:31
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+Error: No `routeModule` available to create server routes
+    at invariant2 (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:7840:11)
+    at file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8657:5
+    at Array.map (<anonymous>)
+    at createServerRoutes (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8655:45)
+    at file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8681:20
+    ... collapsed 3 duplicate lines matching above lines ...
+    at Array.map (<anonymous>)
+    at createServerRoutes (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UVKPFVEO.mjs:8655:45)
+    at ServerRouter (file:///C:/Users/itsdw/Downloads/project-manager-main/frontend/node_modules/react-router/dist/development/chunk-UALY5CBT.mjs:67:16)
+    at Object.react_stack_bottom_frame (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:10288:18)
+    at renderWithHooks (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:5298:19)
+    at renderElement (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:5733:23)
+    at retryNode (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:6664:31)
+    at performWork (C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:7692:17)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at C:\Users\itsdw\Downloads\project-manager-main\frontend\node_modules\react-dom\cjs\react-dom-server.node.development.js:8546:31
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/react-query-provider.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/react-query-provider.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/react-query-provider.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/provider/react-query-provider.tsx[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\layout\header.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\layout\header.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\layout\header.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/layout/header.tsx[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mhmr update [39m[2m/app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\root.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\root.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\root.tsx, /app/app.css[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/root.tsx[22m
+[2m4:55:15 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+[2m4:55:15 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/app/provider/react-query-provider.tsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/auth-context.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\root.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx[22m
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/app/provider/react-query-provider.tsx[22m Could not Fast Refresh. Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:55:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/auth-context.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\root.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx[22m
+[2m4:58:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/hooks/use-project.ts[22m
+[2m4:58:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/hooks/use-project.ts[22m
+[2m4:58:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/hooks/use-project.ts[22m
+[2m4:58:21 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/hooks/use-project.ts[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/hooks/use-project.ts[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/hooks/use-project.ts[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/hooks/use-project.ts[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/hooks/use-project.ts[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/project/projetc-card.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/project/projetc-card.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/components/project/projetc-card.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/project/projetc-card.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/workspace/project-list.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/workspace/project-list.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/components/workspace/project-list.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/workspace/project-list.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/project/create-project.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/itsdw/Downloads/project-manager-main/frontend/app/components/project/create-project.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mapp/components/project/create-project.tsx[22m
+[2m5:11:42 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/components/project/create-project.tsx[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/auth-context.tsx, /app/app.css[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/auth-context.tsx, /app/app.css[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/provider/auth-context.tsx, /app/app.css[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/provider/auth-context.tsx[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css[22m
+[2m5:18:00 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/auth/sign-in.tsx[22m
+[2m5:18:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css[22m
+[2m5:18:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css[22m
+[2m5:18:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css[22m
+[2m5:18:57 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/routes/auth/sign-in.tsx[22m
+[2m5:35:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\ai\assistant-chat.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\achieved.tsx[22m
+[2m5:35:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\ai\assistant-chat.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\achieved.tsx[22m
+[2m5:35:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/routes/auth/sign-in.tsx, /app/app.css, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\auth\sign-up.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\workspace\create-workspace.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\workspaces\index.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\members.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\dashboard-layout.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\components\ai\assistant-chat.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\my-tasks.tsx, /@fs/C:\Users\itsdw\Downloads\project-manager-main\frontend\app\routes\dashboard\achieved.tsx[22m
+[2m5:35:49 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/lib/fetch-util.ts[22m
+[2m5:35:49 PM[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m5:35:51 PM[22m [36m[1m[vite][22m[39m server restarted.
