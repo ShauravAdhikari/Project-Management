@@ -1,6 +1,8 @@
 import Workspace from "../models/workspace.js";
 import Project from "../models/project.js";
 import Task from "../models/task.js";
+import Comment from "../models/comment.js";
+import ActivityLog from "../models/activity.js";
 
 const createProject = async (req, res) => {
   try {
@@ -165,4 +167,83 @@ const getProjectTasks = async (req, res) => {
   }
 };
 
-export { createProject, getProjectDetails, getProjectTasks };
+const deleteProject = async (req, res) => {
+  try {
+    const { projectId } = req.params;
+
+    const project = await Project.findById(projectId);
+
+    if (!project) {
+      return res.status(404).json({
+        message: "Project not found",
+      });
+    }
+
+    const currentUserId = req.user._id.toString();
+    const currentMember = project.members.find(
+      (member) => member.user.toString() === currentUserId
+    );
+
+    if (!currentMember) {
+      return res.status(403).json({
+        message: "You are not a member of this project",
+      });
+    }
+
+    const canDeleteProject =
+      project.createdBy.toString() === currentUserId ||
+      currentMember.role === "manager";
+
+    if (!canDeleteProject) {
+      return res.status(403).json({
+        message: "Only project managers can delete this project",
+      });
+    }
+
+    const projectTasks = await Task.find({ project: projectId }).select(
+      "_id comments"
+    );
+    const taskIds = projectTasks.map((task) => task._id);
+    const commentIds = projectTasks.flatMap((task) => task.comments || []);
+
+    if (commentIds.length > 0) {
+      await Comment.deleteMany({
+        _id: { $in: commentIds },
+      });
+    }
+
+    if (taskIds.length > 0) {
+      await Task.deleteMany({
+        _id: { $in: taskIds },
+      });
+
+      await ActivityLog.deleteMany({
+        resourceType: "Task",
+        resourceId: { $in: taskIds },
+      });
+    }
+
+    await ActivityLog.deleteMany({
+      resourceType: "Project",
+      resourceId: project._id,
+    });
+
+    await Workspace.findByIdAndUpdate(project.workspace, {
+      $pull: { projects: project._id },
+    });
+
+    await Project.findByIdAndDelete(projectId);
+
+    return res.status(200).json({
+      message: "Project deleted successfully",
+      deletedProjectId: projectId,
+    });
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({
+      message: "Internal server error",
+    });
+  }
+};
+
+export { createProject, getProjectDetails, getProjectTasks, deleteProject };

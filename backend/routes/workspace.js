@@ -4,6 +4,7 @@ import {
   acceptGenerateInvite,
   acceptInviteByToken,
   createWorkspace,
+  deleteWorkspace,
   getWorkspaceDetails,
   getWorkspaceProjects,
   getWorkspaces,
@@ -56,5 +57,11 @@ router.get("/", authMiddleware, getWorkspaces);
 router.get("/:workspaceId", authMiddleware, getWorkspaceDetails);
 router.get("/:workspaceId/projects", authMiddleware, getWorkspaceProjects);
 router.get("/:workspaceId/stats", authMiddleware, getWorkspaceStats);
+router.delete(
+  "/:workspaceId",
+  authMiddleware,
+  validateRequest({ params: z.object({ workspaceId: z.string() }) }),
+  deleteWorkspace
+);
 
 export default router;

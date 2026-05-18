@@ -10,9 +10,11 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import ReactQueryProvider from "./provider/react-query-provider";
+import { AuthProvider } from "./provider/auth-context";
 import { THEME_STORAGE_KEY } from "./provider/theme-provider";
 
 export const links: Route.LinksFunction = () => [
+  { rel: "icon", type: "image/png", href: "/yutani-foundation-logo.png" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
@@ -49,7 +51,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <ReactQueryProvider>
+          <AuthProvider>
+            {children}
+          </AuthProvider>
+        </ReactQueryProvider>
         <ScrollRestoration />
         <Scripts />
       </body>
@@ -58,11 +64,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return (
-    <ReactQueryProvider>
-      <Outlet />
-    </ReactQueryProvider>
-  );
+  return <Outlet />;
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

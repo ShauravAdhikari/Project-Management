@@ -5,6 +5,7 @@ import { projectSchema } from "../libs/validate-schema.js";
 import { z } from "zod";
 import {
   createProject,
+  deleteProject,
   getProjectDetails,
   getProjectTasks,
 } from "../controllers/project.js";
@@ -37,5 +38,12 @@ router.get(
   authMiddleware,
   validateRequest({ params: z.object({ projectId: z.string() }) }),
   getProjectTasks
+);
+
+router.delete(
+  "/:projectId",
+  authMiddleware,
+  validateRequest({ params: z.object({ projectId: z.string() }) }),
+  deleteProject
 );
 export default router;

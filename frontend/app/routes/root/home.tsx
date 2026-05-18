@@ -1,4 +1,5 @@
 import React from "react";
+import { BrandLogo } from "@/components/layout/brand-logo";
 import type { Route } from "../../+types/root";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router";
@@ -12,8 +13,15 @@ export function meta({}: Route.MetaArgs) {
 
 const Homepage = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center px-6">
-      <div className="flex flex-col items-center gap-6 text-center">
+    <div className="w-full min-h-screen bg-gradient-to-b from-background via-background to-muted/30 flex items-center justify-center px-6 py-12">
+      <div className="flex max-w-2xl flex-col items-center gap-8 rounded-[2rem] border border-border/60 bg-card/90 px-8 py-10 text-center shadow-xl backdrop-blur">
+        <BrandLogo
+          className="flex-col gap-4"
+          imageClassName="size-36 sm:size-44"
+          textClassName="sr-only"
+          showText={false}
+        />
+
         <div className="space-y-2">
           <p className="text-sm font-medium uppercase tracking-[0.3em] text-muted-foreground">
             Project Management Software

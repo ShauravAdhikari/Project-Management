@@ -1,5 +1,5 @@
 import type { WorkspaceForm } from "@/components/workspace/create-workspace";
-import { fetchData, postData } from "@/lib/fetch-util";
+import { deleteData, fetchData, postData } from "@/lib/fetch-util";
 import type { Workspace } from "@/types";
 import {
   keepPreviousData,
@@ -40,6 +40,36 @@ export const useCreateWorkspace = () => {
           ...current.filter((item) => item._id !== workspace._id),
         ]
       );
+    },
+  });
+};
+
+export const useDeleteWorkspaceMutation = () => {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationFn: async (workspaceId: string) =>
+      deleteData(`/workspaces/${workspaceId}`),
+    onSuccess: async (_, workspaceId) => {
+      queryClient.removeQueries({
+        queryKey: workspaceQueryKeys.projects(workspaceId),
+      });
+      queryClient.removeQueries({
+        queryKey: workspaceQueryKeys.stats(workspaceId),
+      });
+      queryClient.removeQueries({
+        queryKey: workspaceQueryKeys.details(workspaceId),
+      });
+
+      queryClient.setQueryData<Workspace[]>(
+        workspaceQueryKeys.list,
+        (current = []) =>
+          current.filter((workspace) => workspace._id !== workspaceId)
+      );
+
+      await queryClient.invalidateQueries({
+        queryKey: workspaceQueryKeys.list,
+      });
     },
   });
 };

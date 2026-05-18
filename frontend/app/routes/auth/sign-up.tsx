@@ -21,6 +21,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { BrandLogo } from "@/components/layout/brand-logo";
 import { Link, useNavigate } from "react-router";
 import { useSignUpMutation } from "@/hooks/use-auth";
 import { toast } from "sonner";
@@ -65,6 +66,14 @@ const SignUp = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-muted/40 p-4">
       <Card className="max-w-md w-full shadow-xl">
         <CardHeader className="text-center mb-5">
+          <div className="mb-6 flex justify-center">
+            <BrandLogo
+              compact
+              className="flex-col gap-3"
+              imageClassName="size-20"
+              textClassName="text-center"
+            />
+          </div>
           <CardTitle className="text-2xl font-bold">
             Create an account
           </CardTitle>

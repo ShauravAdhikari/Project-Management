@@ -263,3 +263,10 @@ Error: No `routeModule` available to create server routes
 [2m5:35:49 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2mapp/lib/fetch-util.ts[22m
 [2m5:35:49 PM[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
 [2m5:35:51 PM[22m [36m[1m[vite][22m[39m server restarted.
+[2m6:42:12 PM[22m [31m[1m[react-router][22m[39m [31mError loading C:/Users/itsdw/Downloads/project-manager-main/frontend/react-router.config.ts: Error: Cannot find package '@vercel/react-router/vite' imported from 'C:/Users/itsdw/Downloads/project-manager-main/frontend/react-router.config.ts'[39m
+[2m6:42:12 PM[22m [31m[1m[react-router][22m[39m Error loading C:/Users/itsdw/Downloads/project-manager-main/frontend/react-router.config.ts: Error: Cannot find package '@vercel/react-router/vite' imported from 'C:/Users/itsdw/Downloads/project-manager-main/frontend/react-router.config.ts'
+[2m6:57:26 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved.[39m
+[2m7:00:22 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved.[39m
+[2m7:49:12 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+[2m7:50:33 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m
+[2m8:04:56 PM[22m [36m[1m[react-router][22m[39m [32mConfig saved[39m

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { BrandLogo } from "@/components/layout/brand-logo";
 import {
   Card,
   CardContent,
@@ -64,6 +65,14 @@ const SignIn = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-muted/40 p-4">
       <Card className="max-w-md w-full shadow-xl">
         <CardHeader className="text-center mb-5">
+          <div className="mb-6 flex justify-center">
+            <BrandLogo
+              compact
+              className="flex-col gap-3"
+              imageClassName="size-20"
+              textClassName="text-center"
+            />
+          </div>
           <CardTitle className="text-2xl font-bold">Welcome back</CardTitle>
           <CardDescription className="text-sm text-muted-foreground">
             Sign in to your account to continue

@@ -10,12 +10,12 @@ import {
   LogOut,
   Settings,
   Users,
-  Wrench,
 } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router";
 import { Button } from "../ui/button";
 import { ScrollArea } from "../ui/scroll-area";
+import { BrandLogo } from "./brand-logo";
 import { SidebarNav } from "./sidebar-nav";
 
 export const SidebarComponent = ({
@@ -68,16 +68,12 @@ export const SidebarComponent = ({
     >
       <div className="flex h-14 items-center border-b px-4 mb-4">
         <Link to="/dashboard" className="flex items-center">
-          {!isCollapsed && (
-            <div className="flex items-center gap-2">
-              <Wrench className="size-6 text-blue-600" />
-              <span className="hidden text-sm font-semibold leading-tight md:block">
-                Yutani Foundation
-              </span>
-            </div>
-          )}
-
-          {isCollapsed && <Wrench className="size-6 text-blue-600" />}
+          <BrandLogo
+            compact
+            showText={!isCollapsed}
+            className={cn(isCollapsed && "justify-center")}
+            textClassName="hidden md:block"
+          />
         </Link>
 
         <Button

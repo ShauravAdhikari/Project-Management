@@ -1,7 +1,7 @@
 import type { User, Workspace } from "@/types";
 import { WorkspaceAvatar } from "./workspace-avatar";
 import { Button } from "../ui/button";
-import { Plus, UserPlus } from "lucide-react";
+import { Plus, Trash2, UserPlus } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 interface WorkspaceHeaderProps {
@@ -14,6 +14,9 @@ interface WorkspaceHeaderProps {
   }[];
   onCreateProject: () => void;
   onInviteMember: () => void;
+  onDeleteWorkspace?: () => void;
+  canDeleteWorkspace?: boolean;
+  isDeletingWorkspace?: boolean;
 }
 
 export const WorkspaceHeader = ({
@@ -21,6 +24,9 @@ export const WorkspaceHeader = ({
   members,
   onCreateProject,
   onInviteMember,
+  onDeleteWorkspace,
+  canDeleteWorkspace = false,
+  isDeletingWorkspace = false,
 }: WorkspaceHeaderProps) => {
   return (
     <div className="space-y-8">
@@ -36,7 +42,18 @@ export const WorkspaceHeader = ({
             </h2>
           </div>
 
-          <div className="flex items-center gap-3 justify-between md:justify-start mb-4 md:mb-0">
+          <div className="flex flex-wrap items-center gap-3 justify-between md:justify-start mb-4 md:mb-0">
+            {canDeleteWorkspace && onDeleteWorkspace && (
+              <Button
+                variant="outline"
+                onClick={onDeleteWorkspace}
+                disabled={isDeletingWorkspace}
+                className="border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 dark:border-red-900/70 dark:text-red-300 dark:hover:bg-red-950/40"
+              >
+                <Trash2 className="size-4 mr-2" />
+                {isDeletingWorkspace ? "Deleting..." : "Delete Workspace"}
+              </Button>
+            )}
             <Button variant={"outline"} onClick={onInviteMember}>
               <UserPlus className="size-4 mr-2" />
               Invite

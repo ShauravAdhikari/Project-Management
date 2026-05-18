@@ -48,8 +48,15 @@ export interface Project {
   tasks: Task[];
   members: {
     user: User;
-    role: "admin" | "member" | "owner" | "viewer";
+    role:
+      | "admin"
+      | "member"
+      | "owner"
+      | "viewer"
+      | "manager"
+      | "contributor";
   }[];
+  createdBy: User | string;
   createdAt: Date;
   updatedAt: Date;
   isArchived: boolean;
