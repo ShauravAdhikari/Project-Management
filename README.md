@@ -146,18 +146,6 @@ Example response:
 }
 ```
 
-## Demo Flow
-
-For a presentation or viva, this is the cleanest order:
-
-1. Sign up or sign in
-2. Create a workspace
-3. Invite a member
-4. Create a project
-5. Add tasks with priorities and due dates
-6. Show dashboard charts and workspace stats
-7. Show archived tasks
-8. Show AI assistant and dark mode
 
 ## Notes
 
@@ -165,12 +153,3 @@ For a presentation or viva, this is the cleanest order:
 - In production, Arcjet must be configured.
 - For production email flows, SendGrid must be configured.
 
-## Submission Tips
-
-To push this closer to a top-mark submission:
-
-- Add 4 to 6 screenshots to the README
-- Record a short demo video
-- Deploy both frontend and backend publicly
-- Prepare a short explanation of the architecture and data flow
-- Be ready to explain authentication, MongoDB models, and API routes
