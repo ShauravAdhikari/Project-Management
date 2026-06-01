@@ -1,155 +1,68 @@
-# Yutani Foundation
+# Project Management Web Application
 
-Yutani Foundation is a full-stack project management platform for managing workspaces, projects, tasks, members, and productivity insights.
+A modern and responsive project management web application built using React.js and Tailwind CSS. This application helps users organize projects, manage tasks, and track progress through a structured and intuitive dashboard interface.
 
-## What It Includes
+---
 
-- User authentication with login, signup, email verification, and password reset
-- Workspace creation and member invitation
-- Project creation with role-based project members
-- Task management with priorities, statuses, subtasks, comments, and archive support
-- Dashboard analytics for project and task progress
-- AI assistant chat inside the dashboard
-- Dark mode toggle
+## Overview
+
+This project simulates a lightweight productivity tool where users can create projects, break them into tasks, and manage workflow efficiently. It focuses on frontend development, component-based architecture, and responsive UI design principles.
+
+---
+
+## Features
+
+* Create and manage multiple projects
+* Add, update, and organize tasks within projects
+* Track task progress in a structured workflow
+* Responsive dashboard interface for different screen sizes
+* Reusable and modular React components
+* Clean navigation and user-friendly interface
+
+---
 
 ## Tech Stack
 
-- Frontend: React 19, React Router 7, TypeScript, Tailwind CSS, React Query
-- Backend: Node.js, Express, MongoDB, Mongoose
-- Optional integrations: OpenAI, SendGrid, Arcjet
+* React.js (Frontend framework)
+* JavaScript (ES6+)
+* Tailwind CSS (Styling)
+* HTML5 and CSS3
+* Git and GitHub (Version control)
 
-## Project Structure
 
-```text
-project-manager-main/
-  backend/
-  frontend/
-  render.yaml
-```
 
-## Local Setup
+## What I Learned
 
-### 1. Backend
+* Building scalable React applications using component-based architecture
+* Managing state and data flow in frontend applications
+* Designing responsive user interfaces with Tailwind CSS
+* Improving code structure and reusability
+* Using Git and GitHub for version control and project management
 
-Create `backend/.env` from `backend/.env.example`.
+---
 
-Minimum local values:
+## Getting Started
 
-```env
-PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/yutani_foundation
-JWT_SECRET=replace-with-a-long-random-secret
-FRONTEND_URL=http://localhost:5173
-NODE_ENV=development
-```
+To run this project locally:
 
-Optional values:
-
-```env
-SEND_GRID_API=
-FROM_EMAIL=
-ARCJET_ENV=development
-ARCJET_KEY=
-OPENAI_API_KEY=
-OPENAI_MODEL=gpt-5-mini
-```
-
-Run:
-
-```powershell
-cd backend
+```bash id="setup-commands"
+git clone https://github.com/ShauravAdhikari/Project-Management.git
+cd Project-Management
 npm install
-npm run dev
+npm start
 ```
 
-### 2. Frontend
+---
 
-Create `frontend/.env` from `frontend/.env.example`.
+## Future Improvements
 
-```env
-VITE_API_URL=http://localhost:5000/api-v1
-```
+* Add backend integration for persistent data storage
+* Implement authentication system (login and signup)
+* Add drag-and-drop task management functionality
+* Improve analytics dashboard for productivity tracking
 
-Run:
+---
 
-```powershell
-cd frontend
-npm install
-npm run dev
-```
+## Repository
 
-Open:
-
-```text
-http://localhost:5173
-```
-
-## Production Deployment
-
-This project is set up to deploy cleanly as:
-
-- 1 Render web service for `backend`
-- 1 Render web service for `frontend`
-- MongoDB Atlas for the database
-
-A starter Render blueprint is included in `render.yaml`.
-
-### Backend Render Settings
-
-- Root Directory: `backend`
-- Build Command: `npm install`
-- Start Command: `npm start`
-
-Required production env vars:
-
-- `MONGODB_URI`
-- `JWT_SECRET`
-- `FRONTEND_URL`
-- `ARCJET_KEY`
-- `ARCJET_ENV=production`
-
-Optional production env vars:
-
-- `SEND_GRID_API`
-- `FROM_EMAIL`
-- `OPENAI_API_KEY`
-- `OPENAI_MODEL`
-
-### Frontend Render Settings
-
-- Root Directory: `frontend`
-- Build Command: `npm install && npm run build`
-- Start Command: `npm start`
-
-Required env var:
-
-- `VITE_API_URL=https://your-backend-url.onrender.com/api-v1`
-
-After deploying the frontend, update the backend `FRONTEND_URL` to the final frontend URL.
-
-## Health Check
-
-The backend includes a health endpoint:
-
-```text
-GET /health
-```
-
-Example response:
-
-```json
-{
-  "status": "ok",
-  "service": "yutani-foundation-api",
-  "environment": "production",
-  "database": "connected"
-}
-```
-
-
-## Notes
-
-- In local development, missing SendGrid and Arcjet credentials are bypassed to keep the app runnable.
-- In production, Arcjet must be configured.
-- For production email flows, SendGrid must be configured.
-
+https://github.com/ShauravAdhikari/Project-Management
